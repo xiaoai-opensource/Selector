@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="未修改样式Button"
+        />
+
+    <Button
+        android:id="@+id/btnSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="Selector演示" />
+
+</LinearLayout>
+
